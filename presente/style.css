@@ -50,15 +50,15 @@ body{
 .front{
     position: absolute;
     inset: 0;
-    border-right: 12.5rem solid #f9bbf9;
-    border-top: 7rem solid transparent;
+    border-right: 15.5rem solid #f9bbf9;
+    border-top: 8rem solid transparent;
     border-bottom: 7rem solid transparent;
     border-radius: 0 1rem 1rem 0;
 }
 .front::before{
     content: '';
     position: absolute;
-    border-left: 12.5rem solid #fda6c9;
+    border-left: 15rem solid #fda6c9;
     border-bottom: 7rem solid transparent;
     border-top: 7rem solid transparent;
     top: -7rem;
@@ -67,19 +67,19 @@ body{
     content: '';
     position: absolute;
     border-bottom: 7rem solid #e990a3;
-    border-right: 12.5rem solid transparent;
-    border-left: 12.5rem solid transparent;
+    border-right: 15rem solid transparent;
+    border-left: 15rem solid transparent;
     border-radius: 0 0 1rem 1rem;
 }
 img{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 6rem;
+    top: 60%;
+    left: 60%;
+    width: 7rem;
     z-index: 5;
     transform-origin: top;
-    transform: translate(-50%,-20%);
-    animation: heart 1s forwards 1s;
+    transform: translate(-30%,-20%);
+    animation: heart 3s forwards 3s;
 }
 .lettre{
     background: #eff;
@@ -91,7 +91,7 @@ img{
     font-family: 'pacifico';
     text-align: center;
     padding-top: 2rem;
-    animation: lettre 1s forwards 4s;
+    animation: lettre 3s forwards 4s;
 }
 @keyframes openenv {
     100%{
